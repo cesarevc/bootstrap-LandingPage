@@ -3,30 +3,39 @@ body, html{
     padding: 0;
     margin: 0;
 }
-body{
-    background: linear-gradient(rgba(95, 114, 189,0.8), rgba(155,35,234,0.7)), url(./img/pg.jpg);
+body {
+    background: linear-gradient(rgba(55, 60, 79, 0.8), rgba(75, 17, 113, 0.7)), url(./img/pg.jpg);
     background-size: cover;
     background-position: center;
     color: whitesmoke;
 }
 
-.logo{
-    height: 100px;
-    margin-top: 40px;
+.title {
+    margin-top: 150px;
 }
+
+/* button {
+    margin-top: 70px;
+} */
 
 .text-description{
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-control{
-    background: transparent !important;
-    color: whitesmoke !important; 
+strong {
+    color: rgb(23, 213, 61);
 }
+
+hr {
+    margin-top: 70px;
+    border: 1px solid  rgb(23, 213, 61)
+}
+
 
 a .fab{
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 15px ;
+    margin-top: 10px;
 }
